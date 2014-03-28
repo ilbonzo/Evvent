@@ -1,4 +1,5 @@
 temp
-dist
-node_modules
 tools/.vagrant
+# temp
+evvent-cordova
+evvent-phonegap
