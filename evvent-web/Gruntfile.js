@@ -169,7 +169,7 @@ module.exports = function (grunt) {
                         'jquery': '../../app/bower_components/jquery/jquery',
                         'underscore': '../../app/bower_components/underscore/underscore',
                         'backbone': '../../app/bower_components/backbone/backbone',
-                        'jquerymobile': '../../app/bower_components/jquery-mobile/jquery.mobile'
+                        'jquerymobile': '../../app/bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.2'
                     },
                     // TODO: Figure out how to make sourcemaps work with grunt-usemin
                     // https://github.com/yeoman/grunt-usemin/issues/30
@@ -249,6 +249,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
+                        'bower_components/**/*'
                     ]
                 }]
             }

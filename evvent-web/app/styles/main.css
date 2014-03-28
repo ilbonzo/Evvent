@@ -1,8 +1,8 @@
-/*body {
-    background: #fafafa;
+
+.ui-mobile .ui-page {
+    min-height: 100%;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-}*/
+#menu-panel {
+    min-height: 100%;
+}
