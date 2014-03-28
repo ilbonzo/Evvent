@@ -41,6 +41,11 @@ class yeoman {
         provider => 'npm',
         require  =>  Package["yo"]
     }
+    package { 'generator-backbone':
+        ensure => installed,
+        provider => 'npm',
+        require  =>  Package["yo"]
+    }
 }
 
 class bower {
