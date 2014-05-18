@@ -46,6 +46,16 @@ class yeoman {
         provider => 'npm',
         require  =>  Package["yo"]
     }
+    package { 'cordova':
+        ensure => installed,
+        provider => 'npm',
+        require  =>  Package["cordova"]
+    }
+    package { 'phonegap':
+        ensure => installed,
+        provider => 'npm',
+        require  =>  Package["phonegap"]
+    }
 }
 
 class bower {
