@@ -10,7 +10,8 @@ define([
         defaults: {
             id: '',
             title: '',
-            date: ''
+            date: '',
+            image: ''
         }
     });
 

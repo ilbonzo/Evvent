@@ -8,8 +8,11 @@ define([
     'use strict';
 
     var EventsCollection = Backbone.Collection.extend({
+
         model: EventModel,
+
         url: 'data/events.json',
+
         success: function() {
             console.log("JSON file load was successful");
         },

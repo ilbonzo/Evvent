@@ -57,6 +57,7 @@ require([
 
         }
     )
+    // after disable jquerymobile route active backbone
     require( ['jquerymobile'], function() {
         window.appRouter = new AppRouter();
     });

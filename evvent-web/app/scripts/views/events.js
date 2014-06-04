@@ -13,6 +13,8 @@ define([
     var EventsView = Backbone.View.extend({
         template: JST['app/scripts/templates/events.ejs'],
 
+        collection: '',
+
         initialize: function() {
             // @debug
             console.log(' --- initialize EventsView');
