@@ -3,3 +3,4 @@ tools/.vagrant
 # temp
 evvent-cordova
 evvent-phonegap
+npm-debug.log

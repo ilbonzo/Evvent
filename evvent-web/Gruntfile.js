@@ -211,7 +211,8 @@ module.exports = function (grunt) {
                 files: {
                     '<%= yeoman.dist %>/styles/main.css': [
                         '.tmp/styles/{,*/}*.css',
-                        '<%= yeoman.app %>/styles/{,*/}*.css'
+                        '<%= yeoman.app %>/styles/{,*/}*.css',
+                        '<%= yeoman.app %>/bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.2.css'
                     ]
                 }
             }
@@ -252,6 +253,34 @@ module.exports = function (grunt) {
                         'bower_components/**/*'
                     ]
                 }]
+            },
+            data: {
+                files: [{
+                    expand: true,
+                    // dot: true,
+                    cwd: '<%= yeoman.app %>',
+                    dest: '<%= yeoman.dist %>',
+                    src: [
+                        // without imagemin
+                        'data-images/**/*',
+                        // data files
+                        'data/**/*'
+                    ]
+                }]
+
+            },
+            cssimage: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.app %>/bower_components/jquery-mobile-bower/css',
+                    dest: '<%= yeoman.dist %>/styles',
+                    src: [
+                        // jquery mobile css
+                        'images/**/*'
+                    ]
+                }]
+
             }
         },
         bower: {
@@ -348,12 +377,15 @@ module.exports = function (grunt) {
         'jst',
         'useminPrepare',
         'requirejs',
-        'imagemin',
+        // 'imagemin',
         'htmlmin',
         'concat',
         'cssmin',
         'uglify',
         'copy',
+        // data
+        'copy:data',
+        'copy:cssimage',
         'rev',
         'usemin'
     ]);
