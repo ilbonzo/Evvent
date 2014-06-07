@@ -4,8 +4,9 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'templates'
-], function ($, _, Backbone, JST) {
+    'templates',
+    'eventModel'
+], function ($, _, Backbone, JST, EventModel) {
     'use strict';
 
     var EventView = Backbone.View.extend({
@@ -19,18 +20,22 @@ define([
             // empty content
             this.$el.empty();
 
-            // watch render
+            // get element model
             this.on('render', this.afterRender);
-
-            // render content
-            this.render(options);
+            this.model = new EventModel({id: options.id});
+            this.model.on('sync', this.render, this);
+            this.model.fetch();
         },
 
         render: function(options) {
             // @debug
             console.log(' --- render EventView ' + options.id);
 
-            var dict = {'id': options.id};
+            var dict = this.model.toJSON();
+            // @debug
+            console.log(' --- dict');
+            console.log(dict);
+
             var html = this.template(dict);
 
             // set content
