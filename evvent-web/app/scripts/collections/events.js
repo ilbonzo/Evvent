@@ -27,7 +27,7 @@ define([
         sync: function(method, model, options){
             // @debug
             console.log(' --- EventsCollection sync');
-            options.dataType = 'json';
+            options.dataType = 'jsonp';
             return Backbone.sync(method, model, options);
         },
 
