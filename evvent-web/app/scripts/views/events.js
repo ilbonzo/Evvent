@@ -39,6 +39,8 @@ define([
             console.log(' --- render EventsView');
 
             var dict = {'eventsCollection': this.collection.toJSON()};
+            // @debug
+            console.log(dict);
             var html = this.template(dict);
 
             // set content

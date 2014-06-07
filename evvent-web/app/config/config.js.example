@@ -1,0 +1,14 @@
+define([], function() {
+    return {
+        url: 'http://api.songkick.com/api/3.0/',
+        apiKey: 'xxxxxxx',
+        // bologna
+        // lat: '44.4991182',
+        // lon: '11.331685'
+        // london
+        lat: '51.5286416',
+        lon: '-0.1015987'
+    }
+});
+
+

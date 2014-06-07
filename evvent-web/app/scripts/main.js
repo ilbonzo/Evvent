@@ -26,6 +26,9 @@ require.config({
         underscore: '../bower_components/underscore/underscore',
         jquerymobile: '../bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.2',
 
+        // config
+        'config': '../config/config',
+
         // routers
         'appRouter': 'routes/appRouter',
 
