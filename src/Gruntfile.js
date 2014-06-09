@@ -1,6 +1,6 @@
 'use strict';
 var LIVERELOAD_PORT = 35729;
-var SERVER_PORT = 9010;
+var SERVER_PORT = 9000;
 var lrSnippet = require('connect-livereload')({port: LIVERELOAD_PORT});
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
@@ -252,7 +252,9 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
-                        'bower_components/**/*'
+                        // 'bower_components/**/*',
+                        // @TODO  requirejs forget this file
+                        'bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.2.js'
                     ]
                 }]
             },
