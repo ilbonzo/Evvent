@@ -22,7 +22,8 @@ module.exports = function (grunt) {
     // configurable paths
     var yeomanConfig = {
         app: 'app',
-        dist: 'dist'
+        dist: 'dist',
+        phonegap: 'www'
     };
 
     grunt.initConfig({
@@ -114,6 +115,7 @@ module.exports = function (grunt) {
         },
         clean: {
             dist: ['.tmp', '<%= yeoman.dist %>/*'],
+            phonegap: ['<%= yeoman.phonegap %>/*', '!<%= yeoman.phonegap %>/res'],
             server: '.tmp'
         },
         jshint: {
@@ -254,7 +256,7 @@ module.exports = function (grunt) {
                     ]
                 }]
             },
-            data: {
+            datadist: {
                 files: [{
                     expand: true,
                     // dot: true,
@@ -267,9 +269,8 @@ module.exports = function (grunt) {
                         'data/**/*'
                     ]
                 }]
-
             },
-            cssimage: {
+            cssimagedist: {
                 files: [{
                     expand: true,
                     dot: true,
@@ -280,7 +281,16 @@ module.exports = function (grunt) {
                         'images/**/*'
                     ]
                 }]
-
+            },
+            // phoengap
+            phonegap: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.dist %>',
+                    dest: '<%= yeoman.phonegap %>',
+                    src: '**'
+                }]
             }
         },
         bower: {
@@ -382,13 +392,30 @@ module.exports = function (grunt) {
         'concat',
         'cssmin',
         'uglify',
-        'copy',
+        'copy:dist',
         // data
-        'copy:data',
-        'copy:cssimage',
-        'rev',
+        'copy:datadist',
+        'copy:cssimagedist',
+        'rev:dist',
         'usemin'
     ]);
+
+    // phonegap
+    grunt.registerTask('phonegap', function (target) {
+        // phonegap
+        // if (target === 'src') {
+            // return grunt.task.run([
+                // @TODO
+                // copy to www <%= yeoman.www %> app <%= yeoman.app %>
+            // ]);
+        // }
+
+        grunt.task.run([
+            'build',
+            'clean:phonegap',
+            'copy:phonegap'
+        ]);
+    });
 
     grunt.registerTask('default', [
         'jshint',
