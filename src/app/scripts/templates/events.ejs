@@ -1,13 +1,15 @@
 <h2>Events List</h2>
 
-
 <ul data-role="listview" data-inset="true" class="dynamic">
     <% _.each(eventsCollection, function(model) { %>
-    <li>
-        <a href="#events/<%= model.id %>">
-        <img src="data-images/<%= model.image %>">
-        <h2><%= model.title %></h2>
-        <p><%= model.date %></p></a>
+    <li class="item-list">
+      <a href="#events/<%= model.id %>">
+        <img src="<%= model.image %>">
+        <div class="event-desc">
+          <h2><%= model.title %></h2>
+          <p><%= model.date %></p>
+        </div>
+      </a>
     </li>
     <% }); %>
 </ul>

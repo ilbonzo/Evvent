@@ -27,24 +27,23 @@ define([
         sync: function(method, model, options){
             // @debug
             console.log(' --- EventsCollection sync');
-            options.dataType = 'jsonp';
+            options.dataType = 'json';
             return Backbone.sync(method, model, options);
         },
 
         // for @songkick
         parse : function(response, options) {
-            var self = this;
             var results = [];
             _.each(response.resultsPage.results.event, function(item) {
-                var e = {
-                    'id': item.id,
-                    'title': item.displayName,
-                    'date': item.start.date,
-                    'image': 'nin.jpg'
-                };
-                results.push(e);
+                var single_item = {
+                    'resultsPage': {
+                        'results': {
+                            'event': item
+                        }
+                    },
+                }
+                results.push(single_item);
             });
-            console.log(results);
             return results;
         }
     });
