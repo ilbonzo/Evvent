@@ -1,6 +1,12 @@
 temp
 tools/.vagrant
-# temp
-evvent-cordova
-evvent-phonegap
 npm-debug.log
+
+example
+
+src/www/*
+!src/www/config.xml
+!src/www/res/
+
+src/platforms
+src/plugins
