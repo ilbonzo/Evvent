@@ -11,3 +11,5 @@ src/www/*
 
 src/platforms
 src/plugins
+
+**/*.zip

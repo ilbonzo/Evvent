@@ -39,6 +39,7 @@ var app = {
     onSuccessGeolocation: function(position) {
         alert('onSuccess');
         console.log(position);
+        alert(position.coords.latitude + ' ' + position.coords.longitude);
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;
         var latLng = new google.maps.LatLng(latitude, longitude);
@@ -58,6 +59,6 @@ var app = {
         });
     },
     onErrorGeolocation: function(){
-        alert(onErrorGeolocation);
+        alert('onErrorGeolocation');
     }
 };
