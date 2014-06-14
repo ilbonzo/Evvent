@@ -1,0 +1,45 @@
+2014-06-14 10:21:25.686 Maps[37959:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 10:21:25.697 Maps[37959:70b] Unlimited access to network resources
+2014-06-14 10:21:25.848 Maps[37959:70b] Resetting plugins due to page load.
+2014-06-14 10:21:25.892 Maps[37959:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 10:32:16.301 Maps[38839:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 10:32:16.332 Maps[38839:70b] Unlimited access to network resources
+2014-06-14 10:32:16.642 Maps[38839:70b] Resetting plugins due to page load.
+2014-06-14 10:32:16.716 Maps[38839:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 10:32:28.340 Maps[38839:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T08:32:26.461Z"}
+2014-06-14 10:38:16.499 Maps[39521:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 10:38:16.506 Maps[39521:70b] Unlimited access to network resources
+2014-06-14 10:38:16.620 Maps[39521:70b] Resetting plugins due to page load.
+2014-06-14 10:38:16.978 Maps[39521:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 10:38:32.110 Maps[39521:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-06-14 10:38:33.567 Maps[39521:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T08:32:26.465Z"}
+2014-06-14 10:41:14.662 Maps[40211:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 10:41:14.679 Maps[40211:70b] Unlimited access to network resources
+2014-06-14 10:41:14.843 Maps[40211:70b] Resetting plugins due to page load.
+2014-06-14 10:41:15.153 Maps[40211:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 10:41:19.030 Maps[40211:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T08:41:17.661Z"}
+2014-06-14 10:58:03.238 Maps[41190:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 10:58:03.268 Maps[41190:70b] Unlimited access to network resources
+2014-06-14 10:58:03.663 Maps[41190:70b] Resetting plugins due to page load.
+2014-06-14 10:58:04.166 Maps[41190:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 10:58:08.553 Maps[41190:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T08:58:07.083Z"}
+2014-06-14 11:02:03.569 Maps[41895:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 11:02:03.579 Maps[41895:70b] Unlimited access to network resources
+2014-06-14 11:02:03.712 Maps[41895:70b] Resetting plugins due to page load.
+2014-06-14 11:02:04.079 Maps[41895:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 11:02:09.212 Maps[41895:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T09:02:07.847Z"}
+2014-06-14 11:02:23.611 Maps[41895:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-06-14 11:44:35.302 Maps[42680:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 11:44:35.338 Maps[42680:70b] Unlimited access to network resources
+2014-06-14 11:44:35.706 Maps[42680:70b] Resetting plugins due to page load.
+2014-06-14 11:44:36.508 Maps[42680:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 11:44:39.837 Maps[42680:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T09:44:38.673Z"}
+2014-06-14 11:50:36.017 Maps[43723:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 11:50:36.028 Maps[43723:70b] Unlimited access to network resources
+2014-06-14 11:50:36.175 Maps[43723:70b] Resetting plugins due to page load.
+2014-06-14 11:50:36.553 Maps[43723:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 11:52:08.187 Maps[44381:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-14 11:52:08.201 Maps[44381:70b] Unlimited access to network resources
+2014-06-14 11:52:08.343 Maps[44381:70b] Resetting plugins due to page load.
+2014-06-14 11:52:08.649 Maps[44381:70b] Finished load of: file:///Users/bonzo/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/50384BF7-4261-4009-AA2E-2BCFC3B11EA1/Maps.app/www/index.html
+2014-06-14 11:52:13.704 Maps[44381:70b] {"coords":{"latitude":37.785834,"longitude":-122.406417,"accuracy":5,"altitude":0,"heading":-1,"speed":-1,"altitudeAccuracy":-1},"timestamp":"2014-06-14T09:52:12.496Z"}
