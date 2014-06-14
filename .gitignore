@@ -2,6 +2,9 @@ temp
 tools/.vagrant
 npm-debug.log
 
+example/**/platforms
+example/**/plugins
+
 src/www/*
 !src/www/config.xml
 !src/www/res/

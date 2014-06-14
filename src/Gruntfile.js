@@ -115,7 +115,8 @@ module.exports = function (grunt) {
         },
         clean: {
             dist: ['.tmp', '<%= yeoman.dist %>/*'],
-            phonegap: ['<%= yeoman.phonegap %>/*', '!<%= yeoman.phonegap %>/res'],
+            phonegap: ['<%= yeoman.phonegap %>/*', '!<%= yeoman.phonegap %>/res', '!<%= yeoman.phonegap %>/config.xml'],
+
             server: '.tmp'
         },
         jshint: {
