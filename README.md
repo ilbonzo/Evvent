@@ -5,3 +5,8 @@ __Example Phonegap Application__
  * Backbone
  * jQuery Mobile
 
+
+**See the slide**
+
+http://matteomagni.net/presentation-phonegap-course
+
