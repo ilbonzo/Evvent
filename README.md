@@ -8,5 +8,5 @@ __Example Phonegap Application__
 
 **See the slide**
 
-http://matteomagni.net/presentation-phonegap-course
+http://matteomagni.net/presentation-cordova-phonegap-course
 
